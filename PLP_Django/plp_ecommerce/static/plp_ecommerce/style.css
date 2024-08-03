@@ -1,0 +1,15 @@
+
+body{
+    background: white url("./media/images/IMG-20200430-WA0047.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: bisque;
+}
+
+a, p, h2, h3{
+    color: white;
+}

@@ -1,0 +1,20 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'plp_ecommerce/style.css' %}">
+</head>
+<body>
+    <h1>Welcome To Our E-commerce Website</h1>
+    <nav>
+        <ul>
+            <li><a href="{% url 'plp_ecommerce:product_list' %}">Products</a></li>
+            <li><a href="{% url 'plp_ecommerce:customer_list' %}">Customers</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
